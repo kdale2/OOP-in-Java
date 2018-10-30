@@ -16,14 +16,12 @@ public class TicketOrderProxy implements ITicketOrder {
 	}
 
 	@Override
-	public void submitTicketOrder() {
-		
+	public void submitTicketOrder() {	
 		ticketOrder.submitTicketOrder();
 	}
 
 	@Override
-	public String getOrderNumber() {
-		
+	public String getOrderNumber() {	
 		return ticketOrder.getOrderNumber();
 	}
 
