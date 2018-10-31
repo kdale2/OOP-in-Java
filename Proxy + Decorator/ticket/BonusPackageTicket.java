@@ -2,8 +2,7 @@ package ticket;
 
 public class BonusPackageTicket implements ITicket {
 	
-	//this ticket adds 50 to price
-	
+	//this ticket adds 50 to total price
 	private ITicket ticket;
 	
 	public BonusPackageTicket(ITicket ticket) {
