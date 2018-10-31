@@ -12,11 +12,11 @@ public class MeetAndGreetTicket implements ITicket {
 
 	@Override
 	public int getPrice() {
-		return 180;
+		return ticket.getPrice() + 100;
 	}
 
 	@Override
 	public String getSummary() {
-		return "Pearl Jam + Meet and Greet";
+		return ticket.getSummary() " + Meet and Greet";
 	}
 }
