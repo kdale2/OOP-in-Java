@@ -12,11 +12,11 @@ public class BonusPackageTicket implements ITicket {
 
 	@Override
 	public int getPrice() {
-		return 130;
+		return ticket.getPrice() + 50;
 	}
 
 	@Override
 	public String getSummary() {
-		return "Pearl Jam + Bonus Package";
+		return ticket.getSummary() " + Bonus Package";
 	}
 }
