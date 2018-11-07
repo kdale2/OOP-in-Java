@@ -1,5 +1,4 @@
 package findOrderStrategy;
-
 import orders.Order;
 
 public class LastName implements IFindOrderStrategy {
