@@ -10,8 +10,7 @@ public class PizzaBuilder implements IPizzaBuilder {
 
 	@Override
     public void addTopping(String topping) {
-		toppings.add(topping);
-    	
+		toppings.add(topping);	
     }
 
     @Override
